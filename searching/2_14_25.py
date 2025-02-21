@@ -2,7 +2,7 @@
 class Solution:
     def firstBadVersion(self, n: int) -> int:
         low = 0
-        high = n
+        high = len(n)
         #Add result to store the least bad version that was found
         result = 0
         
